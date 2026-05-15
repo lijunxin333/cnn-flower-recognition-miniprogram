@@ -1,0 +1,131 @@
+/* pages/home/home.wxss */
+
+.container {
+  background: linear-gradient(to top, #e8f5e9, #ffffff);
+  min-height: 100vh;
+  
+}
+/* 顶部标语 */
+.header-text {
+  margin: 10rpx;
+  text-align: center;
+  margin-top: rpx;   
+}
+
+.title {
+  display: block;       /* 强制换行 */
+  font-size: 42rpx;
+  font-weight: bold;
+}
+
+.subtitle {
+  display: block;       /* 放到下一行 */
+  font-size: 26rpx;
+  color: #888;
+  margin-top: 10rpx;    /* 标题和副标题间距 */
+  text-align: right; 
+  padding-right: 30rpx;
+}
+
+/* 轮播整体 */
+.swiper {
+  height: 420rpx;
+  margin: 20rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+
+/* 卡片容器 */
+.swiper-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* 图片 */
+.swiper-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 渐变遮罩（核心高级感） */
+.mask {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150rpx;
+  background: linear-gradient(
+    transparent,
+    rgba(0, 0, 0, 0.6)
+  );
+}
+
+/* 文字区域 */
+.text-box {
+  position: absolute;
+  bottom: 20rpx;
+  left: 20rpx;
+  color: white;
+}
+
+/* 花名 */
+.flower-name {
+  font-size: 34rpx;
+  font-weight: bold;
+  display: block;
+}
+
+/* 描述 */
+.flower-desc {
+  font-size: 24rpx;
+  margin-top: 8rpx;
+  opacity: 0.9;
+}
+.overlay {
+  text-align: center;
+  color: white;
+}
+
+.func-container {
+  margin: 380rpx 30rpx 30rpx;
+  background: white;
+  border-radius: 30rpx;
+  padding: 50rpx 30rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.circle-btn {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  background: linear-gradient(135deg, #7ee8fa, #6fffcf);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 10rpx 25rpx rgba(111, 255, 207, 0.4);
+}
+.btn-text {
+  font-size: 24rpx;
+  color: white;
+  margin-top: 10rpx;
+}
+.album-btn {
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  color: #4a4a4a;
+}
+
+.camera-icon,
+.album-icon,
+.logo-icon {
+  width: 40rpx;
+  height: 40rpx;
+  background: rgba(255,255,255,0.9);
+  border-radius: 10rpx;
+}

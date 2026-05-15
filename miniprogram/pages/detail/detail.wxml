@@ -1,0 +1,40 @@
+<!-- pages\detail\detail.wxml -->
+<view class="container">
+
+<!-- 顶部卡片 -->
+<view class="card">
+  <image class="img" src="{{detail.image_url}}" mode="aspectFill"/>
+  <view class="name">{{item.name}}</view>
+</view>
+
+<!-- 中文介绍 -->
+<view class="section">
+  <view class="title">📖 花卉简介</view>
+  <view class="content">{{detail.description}}</view>
+</view>
+
+<!-- 花语 -->
+<view class="section">
+  <view class="title">🌸 花语</view>
+  <view class="content">{{detail.language}}</view>
+</view>
+
+<!-- 光照 -->
+<view class="section">
+  <view class="title">☀️ 光照</view>
+  <view class="content">{{detail.light}}</view>
+</view>
+
+<!-- 浇水 -->
+<view class="section">
+  <view class="title">💧 浇水</view>
+  <view class="content">{{detail.water}}</view>
+</view>
+
+<!-- 土壤 -->
+<view class="section">
+  <view class="title">🌱 土壤</view>
+  <view class="content">{{detail.soil}}</view>
+</view>
+
+</view>

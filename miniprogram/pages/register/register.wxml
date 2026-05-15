@@ -1,0 +1,23 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+
+<view class="title">用户注册</view>
+
+<input 
+  class="input"
+  placeholder="请输入用户名"
+  bindinput="onUsernameInput"
+/>
+
+<input 
+  class="input"
+  placeholder="请输入密码（至少6位）"
+  password="true"
+  bindinput="onPasswordInput"
+/>
+
+<button class="btn" bindtap="handleRegister">
+  注册
+</button>
+
+</view>

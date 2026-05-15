@@ -1,0 +1,37 @@
+<!--pages/favorite/favorite.wxml-->
+
+<view class="container">
+
+  <view wx:if="{{list.length > 0}}" class="title">⭐ 我的收藏</view>
+
+  <view wx:if="{{list.length === 0}}" class="empty">
+  <text class="empty-text">还没有收藏花卉</text>
+  <text class="empty-sub">
+    去首页拍照识别，收藏你喜欢的花吧 🌿
+  </text>
+  </view>
+
+  <view wx:for="{{list}}" 
+  wx:key="id" 
+  class="card" 
+  bindtap="goDetail" 
+  data-item="{{item}}">
+        <!-- 图像 -->
+        <image class="img" src="{{item.img}}" mode="aspectFill"/>
+        <!-- 中间：信息 -->
+        <view class="info"><text class="name">{{item.name}}</text> </view>
+  
+          <!-- 右边：删除按钮 -->
+          <view class="delete-area">
+               <button 
+                  class="delete-btn" 
+                  size="mini"
+                  catchtap="deleteItem"
+                  data-id="{{item.id}}"
+                >
+                  删除
+                </button>
+          </view>
+</view>
+
+</view>

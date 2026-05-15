@@ -1,0 +1,33 @@
+<!--pages/profile/profile.wxml-->
+<view class="container">
+
+<!-- 用户信息卡 -->
+<view class="card">
+
+  <view class="avatar">
+    👤
+  </view>
+
+  <view class="info">
+    <text class="username">{{username}}</text>
+    <text class="userid">ID: {{userId}}</text>
+  </view>
+
+</view>
+
+<!-- 功能区 -->
+<view class="menu">
+
+  <view class="menu-item">
+    <text>收藏数量</text>
+    <text class="value">{{favoriteCount}}</text>
+  </view>
+
+</view>
+
+<!-- 退出按钮 -->
+<button class="logout-btn" bindtap="logout">
+  退出登录
+</button>
+
+</view>

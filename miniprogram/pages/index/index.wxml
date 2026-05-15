@@ -1,0 +1,4 @@
+<!-- pages\index\index.wxml -->
+<view class="container">
+  <text>加载中...</text>
+</view>

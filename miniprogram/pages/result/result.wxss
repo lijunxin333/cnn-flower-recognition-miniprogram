@@ -1,0 +1,136 @@
+/* pages\result\result.wxss */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #e8fdf2, #ffffff);
+  padding: 40rpx;
+}
+
+/* header */
+.header {
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+
+.header-text {
+  margin: 10rpx;
+  text-align: center;
+  margin-top: rpx;   
+}
+
+.subtitle {
+  font-size: 24rpx;
+  color: #888;
+  margin-top: 10rpx;
+}
+
+/* 主卡片 */
+.main-card {
+  background: white;
+  border-radius: 30rpx;
+  padding: 60rpx 40rpx;
+  text-align: center;
+  box-shadow: 0 10rpx 30rpx rgba(0,0,0,0.06);
+}
+
+.flower-img {
+  width: 320rpx;
+  height: 320rpx;
+  border-radius: 24rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0,0,0,0.1);
+}
+
+.flower-icon {
+  font-size: 80rpx;
+}
+
+.flower-name {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #2ecc71;
+  margin-top: 20rpx;
+}
+
+.confidence {
+  margin-top: 15rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+
+.hint {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+/* Top3 */
+.top3-card {
+  margin-top: 40rpx;
+  background: white;
+  border-radius: 30rpx;
+  padding: 30rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0,0,0,0.05);
+}
+
+.section-title {
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+}
+
+.top-item {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+
+.rank {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  background: #43e97b;
+  color: white;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 24rpx;
+}
+
+.name {
+  flex: 1;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+
+.prob {
+  color: #888;
+}
+
+/* 按钮 */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50rpx;
+}
+
+.btn.detail {
+  background: #2196f3;
+  color: white;
+}
+
+.btn {
+  width: 35%;
+  border-radius: 50rpx;
+  font-size: 28rpx;
+}
+
+.retry {
+  background: white;
+  border: 2rpx solid #43e97b;
+  color: #43e97b;
+}
+
+.save {
+  background: linear-gradient(to right, #43e97b, #38f9d7);
+  color: white;
+}

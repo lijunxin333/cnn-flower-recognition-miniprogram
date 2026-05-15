@@ -1,0 +1,73 @@
+<!-- pages\result\result.wxml -->
+<view class="container">
+
+<!-- 标题 -->
+<view class="header">
+  <text class="title">🌿 识别结果</text>
+  <text class="subtitle">  AI 花卉智能分析</text>
+</view>
+
+<!-- 主结果卡片 -->
+<view class="main-card">
+
+<!-- 花图片 -->
+<image 
+  class="flower-img"
+  src="{{result.top1.img}}"
+  mode="aspectFill"
+/>
+
+<!-- 名字 -->
+<text class="flower-name">
+  {{result.top1.name}}
+</text>
+
+<!-- 置信度 -->
+<text class="confidence">
+  置信度 {{result.top1.probText}}%
+</text>
+
+<text class="hint">
+  AI 已确认最可能的花卉类别
+</text>
+
+</view>
+
+<!-- Top3 -->
+<view class="top3-card">
+
+  <view class="section-title">Top 3 识别结果</view>
+
+  <view class="top-item"
+  wx:for="{{result.top3}}"
+  wx:key="id"
+  bindtap="goDetailFromTop3"
+  data-item="{{item}}"
+>
+
+    <view class="rank"> {{index + 1}} </view>
+    <view class="name"> {{item.name}} </view>
+    <view class="prob"> {{item.probText}}% </view>
+
+  </view>
+
+</view>
+
+<!-- 按钮 -->
+<view class="btn-group">
+
+  <button class="btn retry" bindtap="reChoose">
+    🔄 重新识别
+  </button>
+
+  <button class="btn save" bindtap="saveResult">
+    ⭐ 收藏
+  </button>
+
+  <button class="btn detail" bindtap="goDetail">
+    📖 查看详情
+  </button>
+
+</view>
+
+</view>

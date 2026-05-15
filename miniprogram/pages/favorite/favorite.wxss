@@ -1,0 +1,99 @@
+/* pages/favorite/favorite.wxss */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #e8f5e9, #ffffff);
+  padding-bottom: 40rpx;
+}
+
+/* 标题我的收藏 */
+.title {
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+
+  margin: 40rpx 0 30rpx;
+
+  position: relative;
+}
+
+/* 左线 */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 60rpx;
+  height: 4rpx;
+  background: #43e97b;
+  left: 20%;
+  top: 50%;
+}
+
+/* 右线 */
+.title::after {
+  content: "";
+  position: absolute;
+  width: 60rpx;
+  height: 4rpx;
+  background: #43e97b;
+  right: 20%;
+  top: 50%;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-text {
+  font-size: 32rpx;
+  color: #333;
+  margin-top: 300rpx;
+  font-weight: bold;
+}
+
+.empty-sub {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 10rpx;
+}
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0,0,0,0.08);
+}
+
+.img {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 16rpx;
+}
+
+.info {
+  flex: 1;
+  margin-left: 20rpx;
+}
+
+.name {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.delete-area {
+  margin-left: 20rpx;
+}
+
+.delete-btn {
+  background: #ff4d4f;
+  color: white;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  padding: 6rpx 16rpx;
+}

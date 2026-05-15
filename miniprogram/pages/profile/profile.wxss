@@ -1,0 +1,67 @@
+/* pages/profile/profile.wxss */
+.container {
+  padding: 40rpx;
+  background: linear-gradient(to bottom, #e8f5e9, #ffffff);
+  min-height: 100vh;
+}
+
+/* 用户卡片 */
+.card {
+  background: white;
+  border-radius: 20rpx;
+  padding: 40rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0,0,0,0.05);
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: #e8f5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50rpx;
+  margin-right: 30rpx;
+}
+
+.username {
+  font-size: 34rpx;
+  font-weight: bold;
+  display: block;
+}
+
+.userid {
+  font-size: 24rpx;
+  color: #888;
+}
+
+/* menu */
+.menu {
+  background: white;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin-bottom: 40rpx;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  font-size: 28rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.value {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+/* logout */
+.logout-btn {
+  background: #ff5252;
+  color: white;
+}

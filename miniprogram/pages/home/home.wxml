@@ -1,0 +1,68 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  
+  <!-- 标题 -->
+  <view class="header-text">
+    <text class="title">🌿 智能花卉识别</text>
+    <text class="subtitle">------------拍照识别 · AI分析</text>
+  </view>
+  
+  <!-- 轮播图 -->
+  <swiper 
+    class="swiper"
+    indicator-dots="true"
+    autoplay="true"
+    interval="3000"
+    circular="true">
+  
+    <swiper-item>
+      <view class="swiper-card">
+        <image src="/images/百合.jpg" class="swiper-img" mode="aspectFill"/>
+        <view class="mask"></view>
+        <view class="text-box">
+          <text class="flower-name">❀ 百合</text>
+          <text class="flower-desc">花语：纯洁美好</text>
+        </view>
+      </view>
+    </swiper-item>
+  
+    <swiper-item>
+      <view class="swiper-card">
+        <image src="/images/玫瑰.jpg" class="swiper-img" mode="aspectFill"/>
+        <view class="mask"></view>
+        <view class="text-box">
+          <text class="flower-name">🌹 玫瑰</text>
+          <text class="flower-desc">花语：爱情与浪漫</text>
+        </view>
+      </view>
+    </swiper-item>
+  
+    <swiper-item>
+      <view class="swiper-card">
+        <image src="/images/向日葵.jpg" class="swiper-img" mode="aspectFill"/>
+        <view class="mask"></view>
+        <view class="text-box">
+          <text class="flower-name">🌻 向日葵</text>
+          <text class="flower-desc">花语：阳光与希望</text>
+        </view>
+      </view>
+    </swiper-item>
+  
+  </swiper>
+  
+  <!-- 功能区 -->
+  <view class="func-container">
+  
+    <view class="circle-btn" bindtap="chooseImage">
+      <view class="camera-icon"></view>
+      <text class="btn-text">拍照识花</text>
+    </view>
+  
+    <view class="album-btn" bindtap="chooseImage">
+      <view class="album-icon"></view>
+      <text class="album-text">从相册选图</text>
+    </view>
+  
+  </view>
+  
+  </view>
