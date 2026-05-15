@@ -150,20 +150,20 @@ deactivate退出虚拟环境
 去github下载库https://github.com/HarisIqbal88/PlotNeuralNet/tree/master/pycore
 
 ## 2026-05-15 Day ？:所有毕业结束，整理内容
-![展示](result_show\1登录.png)
+![展示](result_show/1登录.png)
 <center> 图1 用户注册登录界面 </center>
 
-![展示](result_show\2导航.png)
+![展示](result_show/2导航.png)
 <center> 图2 页面导航 </center>
 
-![展示](result_show\3花卉识别展示.png)
+![展示](result_show/3花卉识别展示.png)
 <center> 图3 花卉识别展示1 </center>
 
-![展示](result_show\4花卉识别展示.png)
+![展示](result_show/4花卉识别展示.png)
 <center> 图4 花卉识别展示2 </center>
 
-![展示](result_show\5收藏展示.png)
+![展示](result_show/5收藏展示.png)
 <center> 图5 收藏功能展示 </center>
 
-![展示](ai_model\training_curve.png)
+![展示](ai_model/training_curve.png)
 <center> 图6 模型训练结果展示 </center>
