@@ -1,4 +1,24 @@
 # cnn-flower-recognition-miniprogram
+
+## 2026-05-15 Day ？:所有毕业结束，整理内容
+![展示](result_show/1登录.png)
+<center> 图1 用户注册登录界面 </center>
+
+![展示](result_show/2导航.png)
+<center> 图2 页面导航 </center>
+
+![展示](result_show/3花卉识别展示.png)
+<center> 图3 花卉识别展示1 </center>
+
+![展示](result_show/4花卉识别展示.png)
+<center> 图4 花卉识别展示2 </center>
+
+![展示](result_show/5收藏展示.png)
+<center> 图5 收藏功能展示 </center>
+
+![展示](ai_model/training_curve.png)
+<center> 图6 模型训练结果展示 </center>
+
 # 开发日志 - 花卉识别系统
 
 ## 2026-01-21 Day 1: 项目启动
@@ -148,22 +168,3 @@ deactivate退出虚拟环境
 ## 2026-04-21 Day 14:训练一下，基本没干什么
 ## 2026-04-22 Day 15:使用 overleaf（本人没有学会），可以用于画图、写代码的工具，但可以用viso代替用来画图，很方便
 去github下载库https://github.com/HarisIqbal88/PlotNeuralNet/tree/master/pycore
-
-## 2026-05-15 Day ？:所有毕业结束，整理内容
-![展示](result_show/1登录.png)
-<center> 图1 用户注册登录界面 </center>
-
-![展示](result_show/2导航.png)
-<center> 图2 页面导航 </center>
-
-![展示](result_show/3花卉识别展示.png)
-<center> 图3 花卉识别展示1 </center>
-
-![展示](result_show/4花卉识别展示.png)
-<center> 图4 花卉识别展示2 </center>
-
-![展示](result_show/5收藏展示.png)
-<center> 图5 收藏功能展示 </center>
-
-![展示](ai_model/training_curve.png)
-<center> 图6 模型训练结果展示 </center>
